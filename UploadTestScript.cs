@@ -18,7 +18,7 @@ namespace ExperianTests
         {
             UploadPage.GoTo();
             UploadPage.ClickSelectFilesButton();
-            UploadPage.Upload("C:\\Text2.txt");
+            UploadPage.Upload("C:\\Windows\\setuperr.log");
 
             Assert.IsTrue(UploadPage.ValidateResult(), "Validation failed, Upload did not complete.");
             
